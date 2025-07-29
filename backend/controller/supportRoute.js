@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const supportSchema = require("../model/supportSchema");
 const mongoose = require("mongoose");
@@ -15,8 +17,8 @@ supportRoute.post("/send-email", (req, res) => {
     debug: true,
     secureConnection: false,
     auth: {
-      user: "nodemailerpronode@gmail.com",
-      pass: "grhhponcyqubpyis",
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
     },
     tls: {
       rejectUnauthorized: true,
