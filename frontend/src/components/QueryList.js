@@ -46,7 +46,7 @@ SonicBoom
 `;
     try {
       const response = await Axios.post(
-        "http://localhost:4000/supportRoute/send-email",
+        "https://customer-support-a22o.onrender.com/supportRoute/send-email",
         {
           eme,
           sub,
@@ -62,7 +62,7 @@ SonicBoom
       );
     }
 
-    Axios.delete("http://localhost:4000/supportRoute/delete-support/" + _id)
+    Axios.delete("https://customer-support-a22o.onrender.com/supportRoute/delete-support/" + _id)
       .then((res) => {
         if (res.status === 200) {
           alert("Record is deleted");
@@ -96,7 +96,7 @@ Best regards,
 Sonic Boom`;
     try {
       const response = await Axios.post(
-        "http://localhost:4000/supportRoute/send-email",
+        "https://customer-support-a22o.onrender.com/supportRoute/send-email",
         {
           eme,
           sub,
@@ -111,7 +111,7 @@ Sonic Boom`;
         }`
       );
     }
-    Axios.delete("http://localhost:4000/supportRoute/delete-support/" + _id)
+    Axios.delete("https://customer-support-a22o.onrender.com/supportRoute/delete-support/" + _id)
       .then((res) => {
         if (res.status === 200) {
           alert("Record is deleted");

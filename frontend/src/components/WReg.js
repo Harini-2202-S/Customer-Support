@@ -29,7 +29,7 @@ function WReg() {
       ticket_type: "Reg",
     };
 
-    Axios.post("http://localhost:4000/supportRoute/create-support", data)
+    Axios.post("https://customer-support-a22o.onrender.com/supportRoute/create-support", data)
       .then((res) => {
         if (res.status === 200) {
           setIsSubmitted(true);
