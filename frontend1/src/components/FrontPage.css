@@ -1,0 +1,78 @@
+/* Container styling */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+/* Keyframes for background gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Title styling */
+.title {
+  align-self: flex-start;
+  margin-left: 20px;
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Buttons container */
+.buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Button base styling */
+.option-button {
+  padding: 15px 40px;
+  margin: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+/* Admin button specific styling */
+.admin-button {
+  background-color: #007bff;
+  background: linear-gradient(45deg, #007bff, #00aaff);
+}
+
+.admin-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* User button specific styling */
+.user-button {
+  background-color: #28a745;
+  background: linear-gradient(45deg, #28a745, #3ee078);
+}
+
+.user-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}

@@ -1,0 +1,111 @@
+/* AdminPage.css */
+
+.bodyo {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #f0f2f5;
+  padding: 0 1em;
+}
+
+.tableyo {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  border-radius: 10000px;
+  overflow: hidden;
+}
+
+.tableyo .theadyo .tryo {
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tableyo .text-centeryo,
+.tableyo .tdyo {
+  padding: 15px;
+}
+
+.tableyo .tbodyo .tryo {
+  border-bottom: 1px solid #dddddd;
+  transition: background-color 0.3s ease;
+}
+
+.tableyo .tbodyo .tryo:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.tableyo .tbodyo .tryo:hover {
+  background-color: #e9ecef;
+}
+
+.tableyo .tbodyo .tryo:last-of-type {
+  border-bottom: 2px solid #007bff;
+}
+
+.tableyo .tbodyo .tryo.active-row {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.text-centeryo {
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding-top: 20px; /* Small padding at the top */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:active {
+  background-color: #004085;
+}
+
+.action-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-cell .button {
+  margin: 0 5px;
+}
+
+.acc {
+  background-color: #3fff00;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+
+  border: none;
+}
+.rej {
+  border: none;
+  background-color: #ff004f;
+  border-radius: 2em;
+  margin-top: 1em;
+  padding: 0.5em 1.1em;
+}

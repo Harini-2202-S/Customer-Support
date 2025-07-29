@@ -1,0 +1,160 @@
+/* src/components/SupportCenterPage.css */
+
+/* Overall page layout */
+.support-center-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Main content area */
+.main-content {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+/* Section styles */
+.section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* FAQs section */
+.faqs {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faqs h2 {
+    margin-bottom: 20px;
+}
+
+.faqs ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faqs li {
+    margin-bottom: 20px;
+}
+
+.faqs h3 {
+    margin-bottom: 10px;
+}
+
+/* Contact form section */
+.contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact form label {
+    margin-bottom: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
+
+/* Knowledge base section */
+.knowledge-base {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.knowledge-base h2 {
+    margin-bottom: 20px;
+}
+
+.knowledge-base .search-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.knowledge-base .article-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.knowledge-base .article-list li {
+    margin-bottom: 20px;
+}
+
+.knowledge-base .article-list h3 {
+    margin-bottom: 10px;
+}

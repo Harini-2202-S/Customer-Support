@@ -1,0 +1,25 @@
+/* src/components/KnowledgeBase.css */
+.knowledge-base {
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+.knowledge-base .search-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.knowledge-base .article-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.knowledge-base .article-list li {
+    margin-bottom: 20px;
+}
+
+.knowledge-base .article-list h3 {
+    margin-bottom: 10px;
+}

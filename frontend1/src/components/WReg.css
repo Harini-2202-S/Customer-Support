@@ -1,0 +1,69 @@
+.conn {
+  background-image: url("./img.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vmax;
+  width: 100%;
+  height: 58vmax;
+}
+.tleft {
+  margin-left: 7%;
+}
+.myh1 {
+  display: inline;
+  font-family: "Press Start 2P", system-ui;
+  /* font-family: "san"; */
+  font-weight: normal;
+}
+.tb {
+  margin-left: 1%;
+  font-weight: bolder;
+}
+
+.con1 {
+  padding-top: 3%;
+  width: max-content;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 30%;
+}
+.in1 {
+  margin: 1rem;
+  text-align: center;
+  display: block;
+  height: 2.5rem;
+  width: 20em;
+  border-radius: 10em;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  background: transparent;
+}
+input::placeholder {
+  color: black;
+  font-weight: lighter;
+}
+.mybtn {
+  margin-left: 6rem;
+  background-color: #00ff40;
+  border-width: 1px;
+  border: solid;
+  color: black;
+  border-radius: 10em;
+  padding: 0.5rem 0.7rem;
+  width: 7rem;
+}
+.mybtn:hover {
+  background-color: white;
+  color: black;
+  border: solid;
+  border-width: 0.1em;
+}
+.in1:hover {
+  text-align: left;
+  padding-left: 1rem;
+}
