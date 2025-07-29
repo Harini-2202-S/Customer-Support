@@ -9,7 +9,7 @@ mongoose.set("strictQuery", true);
 
 mongoose
   .connect(
-    "mongodb+srv://janaaharinis:qfTLPfhtOhDTx5F1@cluster0.ybgkvw0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "mongodb+srv://janaaharinis:qfTLPfhtOhDTx5F1@cluster0.ybgkvw0.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
